@@ -1,9 +1,13 @@
-import Home from "./pages/Home"
+import React from 'react';
+import PasswordManager from './components/PasswordManager';
 
-const App = () => {
+function App() {
   return (
-    <Home />
-  )
+    <div className="container mt-5">
+      <h1 className="text-center">Password Saver</h1>
+      <PasswordManager />
+    </div>
+  );
 }
 
-export default App
+export default App;
